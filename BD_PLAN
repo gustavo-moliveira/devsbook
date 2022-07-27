@@ -1,0 +1,35 @@
+- Users
+    - id
+    - email
+    - password
+    - name
+    - birthdate
+    - city
+    - work
+    - avatar
+    - cover
+    - token 
+
+- UserRelations
+    - id
+    - user_from
+    - user_to
+
+- Posts
+    - id
+    - type (text, foto)
+    - created_at
+    - body
+
+- PostComments
+    - id
+    - fk_post
+    - fk_user
+    - created_at
+    - body
+
+- PostLikes
+    - id
+    - fk_post
+    - fk_user
+    - created_at
